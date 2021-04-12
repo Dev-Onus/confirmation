@@ -3,8 +3,8 @@ function Toolbar() {
   return (
     <nav>
     <ul>
-    <li>One</li>
-    <li>Two</li>
+    <li>Toolbar One</li>
+    <li>Toolbar Two</li>
     </ul>
      </nav>
   );

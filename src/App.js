@@ -1,4 +1,4 @@
-import confirmationRouter from './components/confirmationRouter';
+import ConfirmationRouter from './components/confirmationRouter';
 import Toolbar from './components/Header/Toolbar';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import './App.css';
@@ -6,14 +6,17 @@ import './App.css';
 const { Header, Content, Footer } = Layout;
 function App() {
   return (
+    <>
+    
     <Layout>
        <Header> <Toolbar /> </Header>
         <Content>
         Text sample
-          <confirmationRouter />
+        <ConfirmationRouter />
         </Content>
         <Footer>Footer</Footer>
       </Layout>
+</>
   );
 }
 
