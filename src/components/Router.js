@@ -1,20 +1,23 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home/Home";
 import Pageone from "./pages/Pageone";
-import Pagetwo from "./pages/Pagetwo";
-import Pagehome from "./pages/Pagehome";
+import MakePayment from "./pages/MakePayment";
 
 function RouterData() {
   return (
     <Router>
       <Switch>
         <Route path="/" exact>
-          <Pagehome />
+          <Home />
         </Route>
 
         <Route path="/pageone">
           <Pageone />
         </Route>
-        <Route path="/pagetwo" component={Pagetwo} />
+        {/* <Route path="/pagetwo" component={Pagetwo} /> */}
+        <Route path="/makepayment">
+          <MakePayment />
+        </Route>
       </Switch>
     </Router>
   );
