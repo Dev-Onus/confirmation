@@ -48,8 +48,8 @@ function Confirmation() {
         ghost={false}
         htmlType={"button"}
         loading={false}
-        size={"middle"}
-        type={"default"}
+        size={"left"}
+        type={"primary"}
       >
         One
       </Button>
