@@ -1,6 +1,7 @@
 import RouterData from "./components/Router";
-import Toolbar from "./components/Header/Toolbar";
+// import Toolbar from "./components/Header/Toolbar";
 import { Layout, Menu, Breadcrumb } from "antd";
+import "antd/dist/antd.css";
 import "./App.scss";
 
 const { Header, Content, Footer } = Layout;
