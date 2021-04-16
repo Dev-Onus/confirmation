@@ -1,0 +1,86 @@
+
+.signed-out{
+    margin:4rem 0rem 4rem 4rem;
+  }
+
+.signed-out h1{
+    color: #0c2074;
+    font-size: 2rem;
+    font-weight: 700;
+
+  }
+
+  .signed-out p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin:0rem 0rem 0.8rem 0rem;
+  }
+
+  .container{
+    width: 100%;
+    background-color: rgb(232, 232, 248);
+}
+
+.action-bar{
+    list-style-type: none;
+    display: block;
+    margin-right: 8rem;
+}
+
+.action-bar li{
+    float: right;
+    margin-right: 1rem;
+    padding : 0
+}
+
+.action-bar li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.main-header{
+    display: block;
+    background-color: #0c2074;  
+}
+
+
+.main-header li{
+    list-style-type: none;
+    float: left;
+    margin-left: 1rem;
+    padding : 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.main-header li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-header li a:hover {
+   font-size: 1.05rem; 
+  }
+
+
+
+.footer ul{
+    list-style-type: none;
+    display: block;
+    margin-right: 8rem;
+    float: left;
+}
+
+.footer ul li{
+    list-style-type: none;
+    margin-left: 1rem;
+    padding : 0;
+    font-size: 1rem;
+}
+

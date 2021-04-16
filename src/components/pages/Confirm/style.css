@@ -1,0 +1,81 @@
+.header{
+  color: #0c2074;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top:1rem;
+}
+
+.vertical{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #636466;
+  font-weight:400;
+}
+
+.amount{
+  color: #0c2074;
+  font-weight: 700;
+}
+
+.start{
+  color: #636466;
+  font-weight:600;
+}
+
+.button{
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.container{
+  width: 100%;
+  background-color: rgb(232, 232, 248);
+}
+
+.action-bar{
+    list-style-type: none;
+    display: block;
+    margin-right: 14rem;
+}
+
+.action-bar li{
+    float: right;
+    margin-right: 1rem;
+    padding : 0
+}
+
+.action-bar li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.main-header{
+    display: block;
+    background-color: #0c2074;
+    
+}
+
+
+.main-header li{
+    list-style-type: none;
+    float: left;
+    margin-left: 1rem;
+    padding : 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.main-header li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-header li a:hover {
+   font-size: 1.1rem; 
+  }
