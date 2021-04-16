@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import MakePayment from "./pages/MakePayment";
 import Confirmation from "./pages/Confirm/ConfirmPage";
 import PageFooter from "./pages/Review/ReviewPage";
+import Checkout from "./pages/checkout/checkout";
 
 function RouterData() {
   return (
@@ -24,6 +25,9 @@ function RouterData() {
           <MakePayment />
         </Route>
 
+        <Route path="/checkout">
+          <Checkout />
+        </Route>
       </Switch>
     </Router>
   );
