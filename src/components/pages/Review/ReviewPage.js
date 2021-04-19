@@ -92,7 +92,7 @@ function PageFooter() {
           </Col>
         </Row>
       </div>
-      <div className="container" style={{}}>
+      <div className="display" style={{}}>
         <Row align={"top"} gutter={0} justify={"center"} wrap={false}>
           <Col span={20} order={0} offset={6} push={0} pull={0}>
             <div className="signed-out" style={{}}>

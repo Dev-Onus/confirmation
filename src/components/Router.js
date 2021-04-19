@@ -4,6 +4,8 @@ import MakePayment from "./pages/MakePayment";
 import Confirmation from "./pages/Confirm/ConfirmPage";
 import PageFooter from "./pages/Review/ReviewPage";
 import Checkout from "./pages/checkout/checkout";
+import Schedule from "./pages/schedulePayment/schedule";
+import ZellePay from "./pages/zellePay/zellePay";
 
 function RouterData() {
   return (
@@ -28,6 +30,15 @@ function RouterData() {
         <Route path="/checkout">
           <Checkout />
         </Route>
+
+        <Route path="/schedule">
+          <Schedule />
+        </Route>
+
+        <Route path="/zellepay">
+          <ZellePay />
+        </Route>
+
       </Switch>
     </Router>
   );

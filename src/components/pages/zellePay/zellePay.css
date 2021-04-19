@@ -1,0 +1,21 @@
+.entire{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 202, 240);
+}
+
+
+.center{
+    margin-left: 35rem;
+}
+
+.entire h1{
+    padding: 2rem 2rem 0rem 0rem;
+    color: #0c2074;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.entire h3{
+    color: #545457;
+}
