@@ -1,4 +1,6 @@
-
+.hello{
+    background-color: #0c2074;  
+}
 .signed-out{
     margin:4rem 0rem 4rem 4rem;
   }
@@ -47,6 +49,7 @@
 }
 
 
+
 .main-header li{
     list-style-type: none;
     float: left;
@@ -64,23 +67,55 @@
     text-decoration: none;
 }
 
+
+
 .main-header li a:hover {
    font-size: 1.05rem; 
   }
 
+.ant-layout-footer{
+    background-color: #0c2074;
+}
 
-
-.footer ul{
+.footer-ul{
     list-style-type: none;
-    display: block;
-    margin-right: 8rem;
+    
+}
+
+.footer-ul li{
+    color: rgb(209, 207, 207);    
+}
+.col {
     float: left;
-}
+    width: 25%;
+    padding: 10px;
+    
+  }
 
-.footer ul li{
+  .col li{
+      padding : 5px;
+      font-size: 1rem;
+      font-weight: 600;
+
+    }
+
+    .col li a{
+        padding-right: 2rem;
+    color: rgb(209, 207, 207);
+    }
+
+  .col li:hover{
+    text-decoration: underline;
+  }
+
+  .footer-ul-logo{
     list-style-type: none;
-    margin-left: 1rem;
-    padding : 0;
-    font-size: 1rem;
-}
+    display: inline-flex;
+  }
 
+ 
+
+  .footer-ul-logo li a{
+    padding-right: 2rem;
+    color: rgb(209, 207, 207);
+}
