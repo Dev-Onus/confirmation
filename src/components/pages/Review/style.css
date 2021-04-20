@@ -1,0 +1,121 @@
+.hello{
+    background-color: #0c2074;  
+}
+.signed-out{
+    margin:4rem 0rem 4rem 4rem;
+  }
+
+.signed-out h1{
+    color: #0c2074;
+    font-size: 2rem;
+    font-weight: 700;
+
+  }
+
+  .signed-out p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin:0rem 0rem 0.8rem 0rem;
+  }
+
+  .display{
+    width: 100%;
+    background-color: rgb(232, 232, 248);
+}
+
+.action-bar{
+    list-style-type: none;
+    display: block;
+    margin-right: 8rem;
+}
+
+.action-bar li{
+    float: right;
+    margin-right: 1rem;
+    padding : 0
+}
+
+.action-bar li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.main-header{
+    display: block;
+    background-color: #0c2074;  
+}
+
+
+
+.main-header li{
+    list-style-type: none;
+    float: left;
+    margin-left: 1rem;
+    padding : 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.main-header li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.main-header li a:hover {
+   font-size: 1.05rem; 
+  }
+
+.ant-layout-footer{
+    background-color: #0c2074;
+}
+
+.footer-ul{
+    list-style-type: none;
+    
+}
+
+.footer-ul li{
+    color: rgb(209, 207, 207);    
+}
+.col {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+  }
+
+  .col li{
+      padding : 5px;
+      font-size: 1rem;
+      font-weight: 600;
+
+    }
+
+    .col li a{
+        padding-right: 2rem;
+    color: rgb(209, 207, 207);
+    }
+
+  .col li:hover{
+    text-decoration: underline;
+  }
+
+  .footer-ul-logo{
+    list-style-type: none;
+    display: inline-flex;
+  }
+
+ 
+
+  .footer-ul-logo li a{
+    padding-right: 2rem;
+    color: rgb(209, 207, 207);
+}

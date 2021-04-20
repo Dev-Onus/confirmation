@@ -1,0 +1,63 @@
+.main {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 30rem;
+}
+
+.main h1 {
+  color: #0c2074;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.second h3 {
+  color: #335bfa;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  font-family: 700;
+}
+.second-col-one {
+  background-color: rgb(53, 136, 168);
+  margin-bottom: 1rem;
+  height: 5rem;
+}
+
+.second-col-one h2 {
+  color: white;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.second-col-two {
+  background-color: rgb(5, 93, 126);
+  margin-bottom: 1rem;
+  height: 5rem;
+}
+
+.second-col-two h2 {
+  color: white;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.second-col-three {
+  background-color: rgb(1, 51, 71);
+  margin-bottom: 1rem;
+  height: 5rem;
+}
+
+.second-col-three h2 {
+  color: white;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.last-col {
+  background-color: rgb(5, 93, 126);
+  height: 2.2rem;
+  text-align: center;
+}
+
+.last-col h3 {
+  padding-top: 0.3rem;
+  color: white;
+}
