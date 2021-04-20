@@ -1,5 +1,4 @@
 import { Row, Col, Anchor, Typography, Card, Button, Divider } from "antd";
-
 const { Link } = Anchor;
 
 const { Title, Text } = Typography;
@@ -26,9 +25,10 @@ const CheckoutComponent = () => {
             BILL DETAILS
           </Title>
           <div className={false}>
-            <span className={false}>Test Biller 1 ...ruru</span>
+            <span className={false} style={{color:"blue"}}>Test Biller 1 ...ruru</span>
             <span className={false}>
               <Text
+                style={{ float: "right" }}
                 code={false}
                 copyable={false}
                 delete={false}
@@ -67,6 +67,7 @@ const CheckoutComponent = () => {
               <div className={false}>
                 <span className={false}>
                   <Title
+                  
                     code={false}
                     copyable={false}
                     delete={false}
@@ -76,10 +77,11 @@ const CheckoutComponent = () => {
                     level={4}
                     mark={false}
                     underline={false}
+                    type={"secondary"}
                   >
                     $250.00
                   </Title>
-                  <span className={false}>
+                  <span className={false} style={{ float: "right" }}>
                     <Text
                       code={false}
                       copyable={false}
@@ -91,6 +93,7 @@ const CheckoutComponent = () => {
                       mark={false}
                       strong={false}
                       underline={false}
+                      
                     >
                       Make a payment by, May 13
                     </Text>
@@ -155,7 +158,7 @@ const CheckoutComponent = () => {
             disabled={false}
             editable={false}
             ellipsis={false}
-            level={3}
+            level={4}
             mark={false}
             underline={false}
           >
@@ -266,20 +269,10 @@ const CheckoutComponent = () => {
           >
             April 15 2021
           </Text>
-          <Divider/>
+          <Divider />
           <Button
-            block={false}
-            danger={false}
-            disabled={false}
-            ghost={true}
-            htmlType={"button"}
-            loading={false}
-            size={"large"}
-            type={"primary"}
-          >
-            Back to bills
-          </Button>
-          <Button
+            style={{ float: "right" }}
+            className="buttons"
             block={false}
             danger={false}
             disabled={false}
@@ -291,6 +284,20 @@ const CheckoutComponent = () => {
           >
             Make a payment
           </Button>
+          <Button
+            style={{ float: "right" }}
+            block={false}
+            danger={false}
+            disabled={false}
+            ghost={true}
+            htmlType={"button"}
+            loading={false}
+            size={"large"}
+            type={"primary"}
+          >
+            Back to bills
+          </Button>
+          
         </Col>
       </Row>
     </>
