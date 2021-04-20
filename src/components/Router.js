@@ -6,6 +6,7 @@ import PageFooter from "./pages/Review/ReviewPage";
 import Checkout from "./pages/checkout/checkout";
 import Schedule from "./pages/schedulePayment/schedule";
 import ZellePay from "./pages/zellePay/zellePay";
+import ChooseBills from "./pages/choosebills/chooseBills";
 
 function RouterData() {
   return (
@@ -37,6 +38,9 @@ function RouterData() {
 
         <Route path="/zellepay">
           <ZellePay />
+        </Route>
+        <Route path="/choosebills">
+          <ChooseBills />
         </Route>
 
       </Switch>
