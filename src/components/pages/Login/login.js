@@ -1,12 +1,12 @@
 import "./login.css";
 import { Input, Row, Col, Checkbox, Button, Select } from "antd";
+import { Footer } from "antd/lib/layout/layout";
 const { Option: SelectOption } = Select;
 
 const Login = () => {
   return (
     <>
       <div className="classone" style={{}}>
-        {" "}
         <Row
           className="row"
           style={{}}
@@ -130,7 +130,7 @@ const Login = () => {
           <Col
             className={"classname"}
             style={{}}
-            span={1}
+            span={12}
             order={0}
             offset={0}
             push={0}
@@ -149,7 +149,8 @@ const Login = () => {
               disabled={false}
               type={"text"}
               value={"Password"}
-            ></Input>
+            >
+            </Input>            
           </Col>
         </Row>
         <Button
@@ -199,7 +200,6 @@ const Login = () => {
             <a
               className={"classname"}
               style={{
-                color: "black",
                 textDecoration: "underline",
                 color: "grey",
               }}
@@ -215,9 +215,7 @@ const Login = () => {
               <a
                 className={"classname"}
                 style={{
-                  color: "black",
                   textDecoration: "underline",
-                  color: "grey",
                 }}
               >
                 Sign up
@@ -226,6 +224,57 @@ const Login = () => {
           </Col>
         </Row>
       </div>
+      <Footer
+className={"classname"}
+style={{}}
+><div className={"classname"} style={{ marginLeft:"15rem" }}>
+<Row
+          className=""
+          style={{}}
+          align={"top"}
+          gutter={0}
+          justify={"start"}
+          wrap={false}
+        >
+          <Col
+            className={"classname"}
+            style={{}}
+            span={12}
+            order={0}
+            offset={0}
+            push={0}
+            pull={0}
+          > 
+    <h3 className={"classname"} style={{ color: "#0C2074", fontSize:"1rem", fontWeight:"700" }}>Connection Secured</h3>
+   </Col>
+   <Col
+            className={"classname"}
+            style={{}}
+            span={14}
+            order={0}
+            offset={0}
+            push={0}
+            pull={0}
+          >
+              <ul className={"classname"} style={{display:"inline-flex" , listStyleType:"none", textDecoration: "underline", color:"#0c2074"}}>
+              <li className={false} style={{paddingLeft:"0.2rem", }}>
+              Give Feedback |
+              </li>
+              <li className={false} style={{paddingLeft:"0.2rem"}}>
+              Security Standards |
+              </li>
+              <li className={false} style={{paddingLeft:"0.2rem"}}>
+              Privacy Pledge |
+              </li>
+              <li className={false} style={{paddingLeft:"0.2rem"}}>
+              Co Browser 
+              </li>
+              </ul>
+          </Col>
+   </Row>
+   
+    </div>
+</Footer>
     </>
   );
 };
