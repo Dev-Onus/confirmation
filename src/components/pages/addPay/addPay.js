@@ -70,7 +70,7 @@ const addPayComponent = () => {
             >
               <RadioButton
                 className={"classname"}
-                style={{ width: "225px" }}
+                style={{ width: "225px"}}
                 autoFocus={false}
                 checked={false}
                 defaultChecked={false}
@@ -80,8 +80,8 @@ const addPayComponent = () => {
                 Company
               </RadioButton>
               <RadioButton
-                className={"classname"}
-                style={{ width: "225px" }}
+                className={"radiobutton"}
+                style={{ width: "225px"}}
                 autoFocus={false}
                 checked={false}
                 defaultChecked={false}
@@ -264,7 +264,7 @@ const addPayComponent = () => {
           }}
         >
           <Button
-            style={{ marginRight: "20px" }}
+            style={{ marginRight: "20px", border:"none" }}
             block={false}
             danger={false}
             disabled={false}
@@ -277,7 +277,7 @@ const addPayComponent = () => {
             Cancel
           </Button>
           <Button
-            style={{}}
+            style={{ background: "#0a41c5", borderColor: "#0a41c5"}}
             className="buttons"
             block={false}
             danger={false}

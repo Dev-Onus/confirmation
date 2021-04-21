@@ -9,6 +9,7 @@ import ZellePay from "./pages/zellePay/zellePay";
 import AddPay from "./pages/addPay/addPay";
 import ChooseBills from "./pages/choosebills/chooseBills";
 import Login from "./pages/Login/login";
+import sendMoney from "./pages/sendMoney/sendMoney";
 
 function RouterData() {
   return (
@@ -51,6 +52,9 @@ function RouterData() {
         
         <Route path="/login">
           <Login />
+        </Route>
+        <Route path="/sendMoney">
+          <sendMoney />
         </Route>
 
       </Switch>
